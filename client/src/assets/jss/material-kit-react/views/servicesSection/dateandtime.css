@@ -1,0 +1,11 @@
+.calendar{
+    margin: 0 auto;
+}
+.notActive{
+    display: none
+}
+.active{
+    display: block;
+    margin: 5px auto;
+
+}

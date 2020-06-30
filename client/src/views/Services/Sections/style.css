@@ -1,0 +1,20 @@
+.testcontent{
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.notShow{
+    display: none
+}
+
+.show{
+    display:inline
+}
+
+
+.error-cont {
+    text-align: center;
+    color: red;
+}

@@ -1,0 +1,64 @@
+.container {
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.over{
+    overflow: auto;
+    height:200px;
+}
+
+.notActive{
+    display: none;
+}
+
+.inputHours{
+    margin: 20px;
+    display: block;
+}
+
+#dateTable {
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 100%;
+text-align: center;
+}
+
+#dateTable td, #dateTable th {
+padding: 8px;
+text-align: center;
+}
+
+#dateTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#dateTable tr:hover {background-color: #ddd;}
+
+#dateTable th {
+padding-top: 12px;
+padding-bottom: 12px;
+background-color:#b8aa67;
+color: white;
+border: none;
+}
+
+.slots{
+    width: 60%;
+    
+}
+
+.occupiedHour{
+    background-color: rgba(255,100, 100, 0.7);
+    border: none;
+}
+
+.freeHour{
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.selectedHour{
+    background-color: rgba(100, 100, 255, 0.7);
+    border: none;
+}
+
